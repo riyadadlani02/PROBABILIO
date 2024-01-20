@@ -51,15 +51,36 @@ Write your first Probabilio program:
 
 probabilio
 Copy code
+
+
+
 // hello_world.pbl
+
+
+
 model HelloWorld {
+
+
+
   state Message = "Hello, World!"
 
+
+  
+
   flow {
+
+
+  
     // Define the flow of the message
     Message' = Message
+
+
+    
   }
 }
+
+
+
 Compile and run your program: probabilio-c hello_world.pbl && probabilio-r hello_world
 
 
