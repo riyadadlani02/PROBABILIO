@@ -34,7 +34,7 @@ To get started with Probabilio, follow these steps:
 
 Installation:
 
-Clone the Probabilio repository: git clone https://github.com/probabilio-lang/probabilio.git
+Clone the Probabilio repository: git clone https://github.com/riyadadlani02/PROBABILIO
 
 
 
