@@ -50,7 +50,13 @@ Create a new file with a .pbl extension.
 Write your first Probabilio program:
 
 probabilio
+
+
+
+
 Copy code
+
+
 
 
 
