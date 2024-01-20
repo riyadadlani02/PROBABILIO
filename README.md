@@ -1,4 +1,5 @@
-Probabilio - System Dynamics Modeling Language
+Probabilio - System Dynamics Modeling Language![image](https://github.com/riyadadlani02/PROBABILIO/assets/113050898/82b72f01-11ed-4f9b-9785-f77d93ba3d8f)
+
 
 
 Probabilio is a cutting-edge programming language designed for building system dynamic models and performing rigorous checks using a seamless integration of first-order logic and probability. It provides a powerful and expressive platform for modeling complex dynamic systems and ensuring their reliability through advanced verification methods.
