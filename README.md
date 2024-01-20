@@ -1,4 +1,4 @@
-Probabilio - System Dynamics Modeling Language![image](https://github.com/riyadadlani02/PROBABILIO/assets/113050898/82b72f01-11ed-4f9b-9785-f77d93ba3d8f)
+Probabilio - System Dynamics Modeling Language![image](https://github.com/riyadadlani02/PROBABILIO/assets/113050898/4fa6e661-bcfc-448d-b787-0dafd0778eae)
 
 
 
