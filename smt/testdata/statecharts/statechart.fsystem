@@ -1,0 +1,31 @@
+system statechart;
+
+import "../simple.fspec";
+
+global fl = new simple.fl;
+
+component drain = states{
+    initial: func{
+        if !fl.active {
+            advance(this.open);
+        }
+    },
+    open: func{
+        if fl.vault.value < 0 {
+            advance(this.close);
+        }
+    },
+    close: func{
+        stay();
+    },
+};
+
+start { 
+    drain: initial,
+};
+
+for 2 run {
+    if !drain.close{
+        fl.fn;
+    }
+}

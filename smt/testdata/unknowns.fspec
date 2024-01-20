@@ -1,0 +1,21 @@
+spec unknowns;
+
+def s = stock{
+    a,
+    b: 2,
+    c: 0,
+};
+
+def f = flow{
+    data: new s,
+    fn: func{
+       data.c <- data.a + data.b; 
+    },
+};
+
+assume s.a > 5;
+assert s.a <= 6;
+
+for 3 init{loop = new f;} run {
+    loop.fn; 
+}
