@@ -5,11 +5,24 @@ Probabilio is a cutting-edge programming language designed for building system d
 
 
 Features
+
+
+
 System Dynamics Modeling: Intuitive syntax and constructs for modeling dynamic systems.
+
+
 Probabilistic Logic Checking: Advanced probability-based verification for robust system analysis.
+
+
 First-Order Logic Integration: Incorporates logical rules for comprehensive system verification.
+
+
 Modular Design: Encourages modular and reusable code for efficient model development.
+
+
 Extensibility: Easily extend the language with custom modules and functions.
+
+
 Documentation: In-depth documentation and resources for learning and reference.
 
 
@@ -22,7 +35,12 @@ To get started with Probabilio, follow these steps:
 Installation:
 
 Clone the Probabilio repository: git clone https://github.com/probabilio-lang/probabilio.git
+
+
+
 Install the Probabilio compiler: cd probabilio && make install
+
+
 Hello World:
 
 Create a new file with a .pbl extension.
