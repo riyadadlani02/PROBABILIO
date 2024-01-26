@@ -5,6 +5,32 @@ Probabilio - System Dynamics Modeling Language![image](https://github.com/riyada
 Probabilio is a cutting-edge programming language designed for building system dynamic models and performing rigorous checks using a seamless integration of first-order logic and probability. It provides a powerful and expressive platform for modeling complex dynamic systems and ensuring their reliability through advanced verification methods.
 
 
+
+Install
+
+
+
+
+It can be built from source if you like, but the best way to install it is from this repo 
+
+
+
+
+Once installed the model checker of probabilio needs access to a SMT solver, otherwise probabilio will default to generating SMT of models only. Microsoft's Z3 is the recommended solver at this time and can be downloaded here : https://www.microsoft.com/en-us/research/project/z3-3/
+
+
+
+
+Then in order for Fault to find your solver you need to set two configuration variables
+
+
+
+
+export SOLVERCMD="z3"
+export SOLVERARG="-in"
+
+
+
 Features
 
 
