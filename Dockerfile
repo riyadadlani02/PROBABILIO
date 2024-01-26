@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 FROM golang:1.18
 
-WORKDIR /go/src/github.com/fault-lang/fault/
+WORKDIR /go/src/github.com/riyadadlani02/PROBABILIO
 
 COPY . .
 
